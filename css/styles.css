@@ -1,0 +1,62 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#button {
+    display: inline-block;
+    background-color:#b98460;
+    color:#ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 8px 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+#input {
+    background-color: #b3a592;
+}
+
+#list {
+    padding: 40px;
+    margin: 20px; /* Adds a 10px outer spacing to all sides*/
+    border: 1px solid black; /* Attributes describe: thickness, type, color*/
+    background-color: #b3a592;
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    background-color: #ccb79b;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    ;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	color: #025f70;
+	font-weight: 800;
+    font-family: 'Playfair Display', serif;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
+
